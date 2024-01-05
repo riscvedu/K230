@@ -28,7 +28,9 @@
 
 - [K230视频编解码API参考文档](https://github.com/kendryte/k230_docs/blob/main/zh/01_software/board/mpp/K230_%E8%A7%86%E9%A2%91%E7%BC%96%E8%A7%A3%E7%A0%81_API%E5%8F%82%E8%80%83.md)
     - [视频讲解](https://riscv-edu.cn/course/230/replay/6374)
-- [K230 编码实战 - rtsp sever搭建和推流文档](https://github.com/kendryte/k230_docs/blob/main/zh/02_applications/tutorials/K230_%E7%BC%96%E7%A0%81%E5%AE%9E%E6%88%98_rtsp_server%E6%90%AD%E5%BB%BA%E5%92%8C%E6%8E%A8%E6%B5%81.md)
+- [K230 编码实战 - rtsp sever搭建和推流文档](https://github.com/kendryte/k230_docs/blob/main/zh/01_software/board/examples/K230_SDK_CanMV_Board_Demo%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)
+    - **修改rtsp_demo -s参数为24**
+    ![image](https://github.com/riscvedu/K230/assets/53103747/02b1c7f1-c921-437d-bb03-688c12d86118)
     - [视频讲解](https://riscv-edu.cn/course/230/replay/6375)
 - [venc_mapi文档](docs/venc_mapi.md)
     - [视频讲解](https://riscv-edu.cn/course/230/replay/6376)
