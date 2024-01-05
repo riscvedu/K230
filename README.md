@@ -32,3 +32,7 @@
     - [视频讲解](https://riscv-edu.cn/course/230/replay/6375)
 - [venc_mapi文档](docs/venc_mapi.md)
     - [视频讲解](https://riscv-edu.cn/course/230/replay/6376)
+ 
+## 1.5
+- [K230 GUI实战 - LVGL移植教程](https://github.com/kendryte/k230_docs/blob/main/zh/02_applications/tutorials/K230_GUI%E5%AE%9E%E6%88%98_LVGL%E7%A7%BB%E6%A4%8D%E6%95%99%E7%A8%8B.md)
+    - [视频讲解](https://riscv-edu.cn/course/230/replay/6381)
