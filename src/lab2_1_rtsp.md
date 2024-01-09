@@ -47,7 +47,7 @@ K230 SDK采用双核架构，小核运行linux系统，实现网络控制服务�
 
 ### 实验步骤
 
--. 在k230_sdk目录下执行make cdk-user，在k230_sdk/src/common/cdk/user/out/little/目录下生成rtsp_demo
+- 在k230_sdk目录下执行make cdk-user，在k230_sdk/src/common/cdk/user/out/little/目录下生成rtsp_demo
 
     - 相关源码
 
