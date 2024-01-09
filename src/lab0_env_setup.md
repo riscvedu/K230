@@ -1,6 +1,6 @@
 # 开发环境搭建
 
-<!-- - [从零开始玩转K230](./doc/从零开始玩转K230.pdf) -->
+<!-- - [从零开始玩转K230](./docs/从零开始玩转K230.pdf) -->
     
 ## 环境搭建与镜像烧写
 
@@ -24,7 +24,7 @@
     > 说明： docker镜像中默认不包含toolchain，下载源码后，使用命令'make prepare_sourcecode'命令会自动下载toolchain至当前编译目录中。
 
     4. （可选）配置原生Linux进行编译
-    根据[Dockerfile](./doc/Dockerfile)配置编译环境
+    根据[Dockerfile](./docs/Dockerfile)配置编译环境
 
     5. 编译SDK
     ```bash
