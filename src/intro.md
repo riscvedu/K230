@@ -25,6 +25,7 @@ K230芯片是一款基于RISC-V架构的端侧AIoT芯片，具有高精度、低
 ## 1.3
 
 - [K230 SDK基础实验 hello_world](https://github.com/kendryte/k230_docs/blob/main/zh/02_applications/tutorials/K230_%E5%AE%9E%E6%88%98%E5%9F%BA%E7%A1%80%E7%AF%87_hello_world.md)
+    - [视频讲解](https://riscv-edu.cn/course/230/replay/6366)
     - 编译适用于小核linux/大核rt-smart的可执行程序
         - 在拷贝hello、hello.elf至SD卡时，需要首先对SD卡的分区(3)进行取消隐藏\
         下图为使用DiskGenius取消隐藏的示例：
