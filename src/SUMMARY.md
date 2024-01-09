@@ -7,3 +7,4 @@
     - [音视频编码实验](./lab2_enc.md)
         - [RTSP推流实验](./lab2_1_rtsp.md)
         - [视频录制实验](./lab2_2_venc.md)
+    - [GUI LVGL实验](./lab3_lvgl.md)
