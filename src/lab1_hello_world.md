@@ -56,7 +56,7 @@ k230_sdk/toolchain/riscv64-linux-musleabi_for_x86_64-pc-linux-gnu/bin/riscv64-un
 
 - 拷贝hello、hello.elf至SD卡
     - 需要首先对SD卡的分区(3)进行取消隐藏\
-    下图为使用DiskGenius取消隐藏的示例：
+    下图为使用DiskGenius取消隐藏的示例，取消隐藏后，点击左上角保存更改：
 
     <img src="./pic/show_hidden.png" width="300">
 
