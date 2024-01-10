@@ -6,7 +6,11 @@
 
 ### 实验步骤
 
-1. 用网线将开发板连接局域网
+#### 依赖资源
+
+- 网线x1，用于将开发板连接到局域网，也可使用wifi连接
+
+1. 将开发板连接局域网
 
 2. 检查k_ipcm模块是否加载
 ```bash
@@ -15,16 +19,30 @@ insmod k_ipcm.ko # 若未加载，进行k_ipcm加载
 ```
 通过 lsmod 检查小核侧是否加载k_ipcm模块，如未加载，执行 insmod k_ipcm.ko 加载k_ipcm模块\
 
-3. 在大核侧，执行
+3. 在大核，执行
 ```bash
 cd sharefs/app
-./sample_sys_inif.elf #启动核间通信进程
+./sample_sys_init.elf #启动核间通信进程
 ```
 
 5. 在小核，执行
 ```bash
 cd /mnt
-./sample_venc -s 24 -n 2 -o /tmp -t 0
+./sample_venc -s 24 -n 1 -o /tmp -t 1
+```
+
+- sample_sys_init.elf 使用说明
+
+```bash
+# 执行./sample_venc.elf -h后，输出demo的使用说明，如下：
+Usage : ./sample_venc.elf [index] -sensor [sensor_index] -o [filename]
+index:
+    0) H.265e.
+    1) JPEG encode.
+    2) OSD + H.264e.
+    3) OSD + Border + H.265e.
+
+sensor_index: see vicap doc
 ```
 
 6. 在VLC中打开网络串流
