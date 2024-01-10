@@ -8,3 +8,4 @@
         - [RTSP推流实验](./lab2_1_rtsp.md)
         - [视频录制实验](./lab2_2_venc.md)
     - [GUI LVGL实验](./lab3_lvgl.md)
+    - [KPU加速模型推理实验](./lab4_kpu.md)
