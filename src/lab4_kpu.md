@@ -1,6 +1,7 @@
 # KPU加速模型推理实验
 
 - [nncase Github主页](https://github.com/kendryte/nncase)
+- [课程回放](https://riscv-edu.cn/course/230/replay/6399)
 
     - nncase是一个为 AI 加速器设计的神经网络编译器, 目前支持的 target有cpu/K210/K510/K230等.
 

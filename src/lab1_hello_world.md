@@ -1,7 +1,7 @@
 # K230 SDK基础实验 hello_world
 
 - [官方文档](https://github.com/kendryte/k230_docs/blob/main/zh/02_applications/tutorials/K230_%E5%AE%9E%E6%88%98%E5%9F%BA%E7%A1%80%E7%AF%87_hello_world.md)
-- [视频讲解](https://riscv-edu.cn/course/230/replay/6366)
+- [课程回放](https://riscv-edu.cn/course/230/replay/6366)
 
 ## 实验步骤
 
