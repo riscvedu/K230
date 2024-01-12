@@ -14,10 +14,3 @@ K230芯片是一款基于RISC-V架构的端侧AIoT芯片，具有高精度、低
 | 图像输入 | 支持最大3路 MIPI CSI(1x4lane+1x2lane) 或 3x2lane   |
 | 显示输出 | 1路MIPI DSI, 1x4 lane 或 1x2 lane 最大分辨率1920*1080@60fps  |
 | 片上接口 | 5xUART 5xI2C 6xPWM 64xGPIO + 8xPMU GPIO 2xUSB 2.0OTG 2xSDxC: SD3.01, eMMC5.0 3xSPI: 1xOSPI + 2xQSPI WDT / RTC / Timer|
-
-- [k230文档及相关资源Github主页](https://github.com/kendryte/k230_docs)
-    - [K230 SDK CanMV Board Demo使用指南](https://github.com/kendryte/k230_docs/blob/main/zh/01_software/board/examples/K230_SDK_CanMV_Board_Demo%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)
-
-- [RT-Thread社区论坛](https://club.rt-thread.org/index.html)
-    - [RT-Smart在riscv中的初始化流程](https://club.rt-thread.org/ask/article/c994a22a0cf2bb76.html)
-    - [RT-Smart riscv64汇编注释](https://club.rt-thread.org/ask/article/cb935a6d9794d770.html)

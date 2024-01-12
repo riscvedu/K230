@@ -13,7 +13,7 @@
         - 支持训练后量化，使用浮点模型和量化校准集
         - 平坦模型，支持零拷贝加载
 
-### 实验步骤
+## 实验步骤
 
 1. 进入docker环境
 ```bash
@@ -32,7 +32,7 @@ pip install -i https://pypi.org/simple nncase==2.5.1 nncase-kpu==2.5.0
 ```bash
 pip list | grep nncase
 
-nncase            2.5.1  
+nncase            2.5.1
 nncase-kpu        2.5.0
 ```
 

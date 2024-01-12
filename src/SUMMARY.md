@@ -9,3 +9,4 @@
         - [视频录制实验](./lab2_2_venc.md)
     - [GUI LVGL实验](./lab3_lvgl.md)
     - [KPU加速模型推理实验](./lab4_kpu.md)
+    - [K230端到端探索](./lab5_end2end.md)
