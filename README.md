@@ -31,7 +31,7 @@
 
 ## Lab0 K230开发环境搭建
 
-- [实验指导](./src/lab0_env_setup.md)
+- [实验指导](https://riscvedu.com/K230/lab0_env_setup.html)
     
     1. 环境搭建与镜像烧写
     2. 通过串口操作开发板
@@ -41,7 +41,7 @@
 - K230 SDK基础实验 hello_world
     - [官方文档](https://github.com/kendryte/k230_docs/blob/main/zh/02_applications/tutorials/K230_%E5%AE%9E%E6%88%98%E5%9F%BA%E7%A1%80%E7%AF%87_hello_world.md)
     - [课程回放](https://riscv-edu.cn/course/230/replay/6366)
-    - [实验指导](./src/lab1_hello_world.md)
+    - [实验指导](https://riscvedu.com/K230/lab1_hello_world.html)
     - 编译适用于小核linux/大核rt-smart的可执行程序
         - 在拷贝hello、hello.elf至SD卡时，需要首先对SD卡的分区(3)进行取消隐藏\
         下图为使用DiskGenius取消隐藏的示例：
@@ -55,13 +55,13 @@
 > **以下两个实验注意保证开发板和主机处于同一局域网下**
 - [K230 编码实战 - rtsp sever搭建和推流文档](./src/lab2_1_rtsp.md)
     - [视频讲解](https://riscv-edu.cn/course/230/replay/6375)
-    - [实验指导](./src/lab2_1_rtsp.md)
+    - [实验指导](https://riscvedu.com/K230/lab2_1_rtsp.html)
     - 实验成功，可以在VLC网络串流中实时看到摄像头拍摄的画面
     <img src="https://github.com/riscvedu/K230/assets/53103747/301931e8-075d-4d4f-8cef-7bf8726a7dd4" width="300">
 
 - [venc_mapi API文档](docs/venc_mapi.md)
     - [视频讲解](https://riscv-edu.cn/course/230/replay/6376)
-    - [实验指导](./src/lab2_2_venc.md)
+    - [实验指导](https://riscvedu.com/K230/lab2_2_venc.html)
     - 实验成功，可以在视频播放器中播放摄像头拍摄到的视频
     <img src="https://github.com/riscvedu/K230/assets/53103747/ad66e74a-93b3-46c7-b32e-67cbcbf3a3e9" width="300">
 
@@ -70,13 +70,13 @@
 
 - [官方文档](https://github.com/kendryte/k230_docs/blob/main/zh/02_applications/tutorials/K230_GUI%E5%AE%9E%E6%88%98_LVGL%E7%A7%BB%E6%A4%8D%E6%95%99%E7%A8%8B.md)
 - [视频讲解](https://riscv-edu.cn/course/230/replay/6381)
-- [实验指导](./src/lab3_lvgl.md)
+- [实验指导](https://riscvedu.com/K230/lab3_lvgl.html)
 
 ## Lab4 KPU加速模型推理
 
 - [nncase Github主页](https://github.com/kendryte/nncase)
 - [课程回放](https://riscv-edu.cn/course/230/replay/6399)
-- [实验指导](./src/lab4_kpu.md)
+- [实验指导](https://riscvedu.com/K230/lab4_kpu.html)
 
 #### Lab4.1 图片分类实验
 
